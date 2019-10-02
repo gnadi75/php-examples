@@ -16,7 +16,7 @@ printf("TEST_VARIABLE=%s\n",$VAR1);
 
 echo "\r\n";
 echo "-------------------------------------------------------\r\n";
-everything = get_defined_vars();
+$everything = get_defined_vars();
 ksort($everything);
 print ("%s",$everything);
 
