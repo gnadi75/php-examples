@@ -17,7 +17,10 @@ printf("TEST_VARIABLE=%s\n",$VAR1);
 echo "\r\n";
 echo "-------------------------------------------------------\r\n";
 $everything = get_defined_vars();
-ksort($everything);
-printf("%s",$everything);
+//printf("%s",$everything);
+$a = print_r(var_dump($GLOBALS),1);
+echo '<pre>';
+echo htmlspecialchars($a);
+echo '</pre>';
 
 ?>
