@@ -18,6 +18,6 @@ echo "\r\n";
 echo "-------------------------------------------------------\r\n";
 $everything = get_defined_vars();
 ksort($everything);
-print ("%s",$everything);
+printf("%s",$everything);
 
 ?>
